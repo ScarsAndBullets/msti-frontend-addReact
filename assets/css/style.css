@@ -118,7 +118,7 @@ fieldset {
     z-index: 9;
 }
 .scrollup:hover {
-    background: #17a158;
+    background: #d72828;
     -webkit-transition: .5s;
     transition: .5s;
 }
@@ -172,7 +172,8 @@ fieldset {
     color: #fff;
 }
 .logo {
-    padding-top: 29px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .mainmenu .navbar-nav li a {
     color: #fff;
@@ -185,18 +186,21 @@ fieldset {
 }
 .mainmenu .navbar-nav li a:hover {
     background: none;
-    color: #621313;
+    /* color: #621313; */
+    color: #d72828
     -webkit-transition: .3s;
     transition: .3s;
 }
 .nav li a:hover,
 .nav li a:focus {
     background: none;
-    color: #621313;
+    /* color: #621313; */
+    color: #d72828;
 }
 .menu-bg .navbar-nav li a:hover,
 .menu-bg .navbar-nav li.active a {
-    color: #621313;
+    /* color: #621313; */
+    color: #d72828;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -224,7 +228,12 @@ fieldset {
     color: #621313;
 }
 .menu-bg .mainmenu .navbar-nav li a:hover {
-    color: #621313;
+    color: #d72828;
+}
+
+.visionMission {
+    color: #fff;
+    margin: auto;
 }
 /*02. END MENU DESIGN AREA*/
 /*03.START HOME DESIGN AREA*/
@@ -429,7 +438,7 @@ a.about-btn {
     text-transform: uppercase;
 }
 a.about-btn:hover {
-    background: #17a158;
+    background: #d72828;
     color: #fff;
     transition: .5s;
     -webkit-transition: .5s;
@@ -534,7 +543,8 @@ a.get-start-btn {
     text-transform: uppercase;
 }
 a.get-start-btn:hover {
-    background: #17a158;
+    /* background: #17a158; */
+    background: #d72828;
     -webkit-transition: .5s;
     transition: .5s;
 }
@@ -1023,7 +1033,9 @@ a.blog-btn {
     color: #fff;
 }
 .footer-widget span {
-    color: #621313;
+    /* color: #621313; */
+    color: #d72828;
+    /* background-color: #fff; */
 }
 .single-post h4 a {
     color: #666;
@@ -1062,7 +1074,8 @@ ul.contact-list i {
     text-transform: uppercase;
 }
 .footer-menu li a:hover {
-    color: #621313;
+    /* color: #621313; */
+    color: #d72828;
 }
 .footer-menu i {
     margin-right: 3px;
@@ -1083,7 +1096,7 @@ ul.contact-list i {
     color: #fff;
 }
 .single-latest-post h2:hover {
-    color: #621313;
+    color: #d72828;
     transition: .5s;
 }
 .single-latest-post span {
@@ -1158,6 +1171,6 @@ ul.contact-list i {
     color: #ddd;
 }
 .text-muted span {
-    color: #621313;
+    color: #d72828;
 }
 /*15.END FOOTER DESIGN AREA*/

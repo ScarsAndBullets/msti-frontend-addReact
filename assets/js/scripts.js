@@ -5,13 +5,13 @@ Template Name: NASTRO - Onepage Business Template
 Version      : 1.0
 * ----------------------------------------------------------------------------------------
 */
-(function($) {
+(function ($) {
     'use strict';
 
-    jQuery(document).ready(function() {
+    jQuery(document).ready(function () {
 
         /*START PRELOADED*/
-        $(window).on('load', function() {
+        $(window).on('load', function () {
             $('.preloader').fadeOut();
             $('.preloader-area').delay(350).fadeOut('slow');
         });
@@ -54,7 +54,7 @@ Version      : 1.0
         /*END WORK JS*/
 
         /*START MENU HIDE*/
-        $(document).on('click', '.navbar-collapse.in', function(e) {
+        $(document).on('click', '.navbar-collapse.in', function (e) {
             if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
                 $(this).collapse('hide');
             }
@@ -69,7 +69,7 @@ Version      : 1.0
         /*END BOOTSTRAP SCROLL-SPY*/
 
         /*START CHANGE MENU BACKGROUND JS*/
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             if ($(window).scrollTop() > 200) {
                 $('.header-top-area').addClass('menu-bg');
             } else {
@@ -79,7 +79,7 @@ Version      : 1.0
         /*END CHANGE MENU BACKGROUND JS*/
 
         /*START SMOOTH SCROLL JS*/
-        $('a.smoth-scroll').on("click", function(e) {
+        $('a.smoth-scroll').on("click", function (e) {
             var anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top - 60
@@ -90,8 +90,8 @@ Version      : 1.0
 
         /*START CONTACT MAP JS*/
         var contact = {
-            "lat": "40.7127837",
-            "lon": "-74.00594130000002"
+            "lat": "38.862270",
+            "lon": "-77.330790"
         }; //Change a map coordinate here!
         try {
             $('.map').gmap3({
@@ -107,24 +107,27 @@ Version      : 1.0
                     scrollwheel: false
                 }]
             });
-        } catch (err) {}
+        } catch (err) { }
         /*END CONTACT MAP JS*/
 
         /*START SCROLL TO UP*/
-        $(window).on('scroll', function() {
+        $(window).on('scroll', function () {
             if ($(this).scrollTop() > 500) {
                 $('.scrollup').fadeIn();
             } else {
                 $('.scrollup').fadeOut();
             }
         });
-        $('.scrollup').on("click", function() {
+        $('.scrollup').on("click", function () {
             $("html, body").animate({
                 scrollTop: 0
             }, 800);
             return false;
         });
         /*END SCROLL TO UP*/
+
+        $('.project-complete-area').hide();
+        $('.our-pricing-area').hide();
 
     });
 
