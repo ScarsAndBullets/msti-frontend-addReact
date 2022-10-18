@@ -126,7 +126,8 @@ Version      : 1.0
         });
         /*END SCROLL TO UP*/
 
-        $('.project-complete-area').hide();
+        // Hide irrelevant sections
+        // $('.project-complete-area').hide();
         $('.our-pricing-area').hide();
 
     });
