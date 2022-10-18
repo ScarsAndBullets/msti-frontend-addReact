@@ -26,10 +26,35 @@ Version      : 1.0
         });
         /*END MAGNIFICENT POPUP JS*/
 
+        /*START WELCOME SLIDE CAROUSEL*/
+        $("#welcome-slide-carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            mouseDrag: false,
+            touchDrag: false,
+            pullDrag: false,
+            freeDrag: false,
+            // autoWidth: true,
+            navigation: true,
+            nav: true,
+            // navElement: ['<a class="left welcome-control owl-prev" href="#welcome-slide-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>','<a class="right welcome-control owl-next" href="#welcome-slide-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>'],
+            rewind: false,
+            // lazyLoadEager: 1,
+            autoplay: true,
+            autoplayHoverPause: true,
+            autoplayTimeout: 5000,
+            slideSpeed : 300,
+            paginationSpeed: 400,
+            itemsDesktop : false,
+            itemsDesktopSmall : false,
+            itemsTablet: false,
+            itemsMobile : false
+        });
+        /*END WELCOME SLIDE CAROUSEL*/
+
         /*START TESTMONIAL JS*/
         $(".testimonial-list").owlCarousel({
-            // items: 1,
-            items: 4,
+            items: 1,
             autoPlay: true,
             navigation: false,
             theme: "tp-round-button",
