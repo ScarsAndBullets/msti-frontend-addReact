@@ -352,7 +352,10 @@ a.welcome-control:focus {
 .carousel-fade .carousel-control {
     z-index: 2;
 }
-.welcome-control {
+.welcome-control,
+.owl-prev,
+.owl-next 
+{
     background: transparent none repeat scroll 0 0 !important;
     border: 1px solid #ddd;
     border-radius: 50%;
@@ -369,11 +372,32 @@ a.welcome-control:focus {
     width: 50px;
     z-index: 20;
 }
-.right.welcome-control {
+/* .owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 24px;
+    height: 50px;
+    text-align: center;
+}
+
+.owl-prev {
+    left: 25px;
+}
+
+.owl-next {
+    right: 25px;
+} */
+
+.right.welcome-control,
+.owl-next {
     left: auto;
     right: -52px;
 }
-.left.welcome-control {
+.left.welcome-control,
+.owl-prev {
     left: -52px;
 }
 .welcome-slider-area:hover .right.welcome-control {
