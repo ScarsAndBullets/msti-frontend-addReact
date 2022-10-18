@@ -288,6 +288,10 @@ a.slide-btn:hover {
     color: #fff;
 }
 .slide-1 {
+    background:url(../img/bg/focused2-1920.jpg);
+    background-size: cover;
+}
+.slide-1 {
     background:url(../img/bg/soldier-g635cf6dce_1920.jpg);
     background-size: cover;
 }

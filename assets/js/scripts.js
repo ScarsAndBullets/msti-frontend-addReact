@@ -28,7 +28,8 @@ Version      : 1.0
 
         /*START TESTMONIAL JS*/
         $(".testimonial-list").owlCarousel({
-            items: 1,
+            // items: 1,
+            items: 4,
             autoPlay: true,
             navigation: false,
             theme: "tp-round-button",
