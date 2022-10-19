@@ -636,6 +636,7 @@ a.get-start-btn:hover {
     margin-top: 30px;
     text-align: center;
     padding: 30px 20px;
+    height: 423px;
 }
 .single-team:hover {
     box-shadow: 0 0 10px 1px rgba(76, 76, 76, 0.41);
