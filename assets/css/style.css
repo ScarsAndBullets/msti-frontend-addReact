@@ -219,7 +219,7 @@ fieldset {
     transition: .3s;
 }
 .menu-bg .logo {
-    /* padding-top: 18px; */
+    padding-top: 18px;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -357,47 +357,41 @@ a.welcome-control:focus {
 .owl-next 
 {
     background: transparent none repeat scroll 0 0 !important;
-    border: 1px solid #ddd;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 24px;
-    height: 50px;
-    left: 0;
-    line-height: 50px;
-    position: absolute;
+    border: 1px solid #ddd !important;
+    border-radius: 50% !important;
+    font-size: 42px !important;
     text-align: center;
+    /* line-height: 50px; */
+    line-height: 32px;
+    color: #fff !important;
+    /* font-size: 24px; */
+    height: 50px;
+    width: 50px;
+    position: absolute;
     top: 50%;
+    /* left: 0; */
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: 50px;
     z-index: 20;
 }
-/* .owl-prev,
-.owl-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #fff;
-    font-size: 24px;
-    height: 50px;
-    text-align: center;
-}
-
 .owl-prev {
     left: 25px;
 }
-
 .owl-next {
     right: 25px;
-} */
-
-.right.welcome-control,
-.owl-next {
+}
+.owl-prev:hover,
+.owl-next:hover {
+    background: rgba(255,255,255,0.2) !important;
+    text-shadow: 1px 1px 1px #999;
+    transition: .25s !important;
+    -webkit-transition: .25s !important;
+}
+/* .right.welcome-control {
     left: auto;
     right: -52px;
 }
-.left.welcome-control,
-.owl-prev {
+.left.welcome-control {
     left: -52px;
 }
 .welcome-slider-area:hover .right.welcome-control {
@@ -409,7 +403,7 @@ a.welcome-control:focus {
     left: 30px;
     transition: .25s;
     -webkit-transition: .25s
-}
+} */
 /*03.END HOME DESIGN AREA*/
 /*04.START ABOUT DESIGN AREA*/
 
@@ -616,31 +610,6 @@ ul.team-social i {
     font-size: 16px;
     margin: 0 10px;
 }
-
-/* Addition for https: //materialdesignicons.com/ svg icons */
-ul.team-social img {
-    width: 19.5px;
-}
-
-ul.team-social svg {
-    /* color:#666; */
-    fill: #666;
-    width:19.5px;
-    height:19.5px;
-}
-
-.bioButton {
-    color: white;
-    font-family: sans-serif;
-    background: #666;
-    font-weight: 600;
-    font-size: small;
-    padding: 0 2px;
-    border-radius: 1.5px;
-    position: relative;
-    top: -5.5px
-}
-
 .single-team h4 {
     color: #621313;
     margin-top: 20px;
