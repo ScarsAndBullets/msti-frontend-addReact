@@ -128,6 +128,9 @@ fieldset {
 .section-title {
     margin-bottom: 50px;
 }
+#services .section-title {
+    margin-bottom: 0;
+}
 .section-title h2 {
     font-size: 30px;
     font-weight: 600;
@@ -171,9 +174,6 @@ fieldset {
     text-transform: uppercase;
     color: #fff;
 }
-.logo {
-
-}
 .mainmenu .navbar-nav li a {
     color: #fff;
     font-weight: 400;
@@ -186,7 +186,7 @@ fieldset {
 .mainmenu .navbar-nav li a:hover {
     background: none;
     /* color: #621313; */
-    color: #d72828
+    color: #d72828;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -491,6 +491,30 @@ a.about-btn:hover {
 /*04.END ABOUT DESIGN AREA*/
 /*05.START SERVICE DESIGN AREA*/
 
+.services-paragraph {
+    font-weight: 500;
+}
+
+#services li {
+    list-style-type: none;
+}
+
+.service-icon {
+    background: #687074;;
+    height: 62px;
+    width: 62px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.service-icon svg {
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    position: relative;
+    top: 14px;
+}
+
 .single-service-box {
     background: #fff none repeat scroll 0 0;
     margin-top: 30px;
@@ -498,6 +522,7 @@ a.about-btn:hover {
     text-align: center;
     transition: .4s;
     cursor: pointer;
+    height: 810px;
 }
 .service-content h4 {
     color: #666;
@@ -526,12 +551,22 @@ a.about-btn:hover {
     -webkit-transition: .4s;
     transition: .4s;
 }
-.single-service-box:hover .service-icon i {
+.single-service-box:hover .service-icon {
     background: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.single-service-box:hover .service-icon svg {
     color: #621313;
     -webkit-transition: .4s;
     transition: .4s;
 }
+/* .single-service-box:hover .service-icon i {
+    background: #fff;
+    color: #621313;
+    -webkit-transition: .4s;
+    transition: .4s;
+} */
 .single-service-box:hover .service-content h4 {
     color: #fff;
     -webkit-transition: .4s;
