@@ -219,7 +219,7 @@ fieldset {
     transition: .3s;
 }
 .menu-bg .logo {
-    padding-top: 18px;
+    /* padding-top: 18px; */
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -386,6 +386,9 @@ a.welcome-control:focus {
     text-shadow: 1px 1px 1px #999;
     transition: .25s !important;
     -webkit-transition: .25s !important;
+}
+.owl-dots {
+    display: none;
 }
 /* .right.welcome-control {
     left: auto;
