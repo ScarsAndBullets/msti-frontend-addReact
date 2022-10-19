@@ -55,16 +55,24 @@ Version      : 1.0
         /*START TESTMONIAL JS*/
         $(".testimonial-list").owlCarousel({
             items: 1,
-            autoPlay: true,
+            autoplay: true,
+            autoplayHoverPause: true,
+            autoplayTimeout: 10000,
+            mouseDrag: false,
+            touchDrag: false,
+            pullDrag: false,
+            freeDrag: false,
+            nav: false,
             navigation: false,
             theme: "tp-round-button",
-            itemsDesktop: [1199, 1],
-            itemsDesktopSmall: [980, 1],
-            itemsTablet: [768, 1],
-            itemsTabletSmall: false,
-            itemsMobile: [479, 1],
+            slideSpeed : 300,
+            paginationSpeed: 400,
+            itemsDesktop : false,
+            itemsDesktopSmall : false,
+            itemsTablet: false,
+            itemsMobile : false,
             autoHeight: true,
-            pagination: true,
+            rewind: true
         });
         /*END TESTMONIAL JS*/
 

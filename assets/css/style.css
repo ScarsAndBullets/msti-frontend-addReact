@@ -20,6 +20,16 @@
   =============================================================*/
 /*01.GENERAL STYLE*/
 
+:root {
+    --maroon: #5E212A; /* rgb(94,33,42) - contact us border */
+    --lightGray: #EDEDEE; /* rgb(237,237,238) - bg for footer, sections */
+    --navyBlue: #01203F; /* rgb(1,32,63) - buttons? */
+    --darkMaroon: #4D0211; /* rgb(77,2,17) - button, testimonial bg*/
+    --gray: #C9D0D7; /* rgb(201,208,215) - element border */
+    --darkGray: #5F5F5F; /* rgb(95,95,95) - testimonial background */
+    --darkMaroon2: #630103; /* rgb(99,1,3) - top for career table */
+}
+
 body {
     font-size: 16px;
     font-weight: 400;
@@ -803,6 +813,12 @@ ul.work li:hover {
     z-index: 1;
     background-attachment: fixed;
 }
+.what-client-say-area.section-padding {
+    padding: 40px 0 1px;
+}
+.what-client-say-area .section-title {
+    margin-bottom: 40px;
+}
 .what-client-say-area::after {
     background: #000 none repeat scroll 0 0;
     content: "";
@@ -815,7 +831,8 @@ ul.work li:hover {
     z-index: -1;
 }
 .testimonial-list {
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-top: 10px;
 }
 .testimonial-section-inner {
     display: block;
@@ -840,20 +857,30 @@ ul.work li:hover {
     padding: 0 15px;
     color: #fff;
 }
+.single-testimonial h4 {
+    color: #fff;
+}
 .single-testimonial > h5 {
     color: #fff;
     margin-top: 15px;
 }
 .single-testimonial h6 {
-    color: #621313;
+    /* color: #621313; */
+    color: var(--gray);
     font-style: italic;
     font-weight: 700;
 }
-.single-testimonial h6 {
+/* .single-testimonial h6 {
     color: #1da;
-}
+} */
 .testimonial-list .owl-pagination {
     margin-top: 10px;
+}
+.testimonial-section-inner h3 {
+    color: var(--gray);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .owl-carousel .owl-page {
     display: inline-block;
