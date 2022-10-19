@@ -609,6 +609,31 @@ ul.team-social i {
     font-size: 16px;
     margin: 0 10px;
 }
+
+/* Addition for https: //materialdesignicons.com/ svg icons */
+ul.team-social img {
+    width: 19.5px;
+}
+
+ul.team-social svg {
+    /* color:#666; */
+    fill: #666;
+    width:19.5px;
+    height:19.5px;
+}
+
+.bioButton {
+    color: white;
+    font-family: sans-serif;
+    background: #666;
+    font-weight: 600;
+    font-size: small;
+    padding: 0 2px;
+    border-radius: 1.5px;
+    position: relative;
+    top: -5.5px
+}
+
 .single-team h4 {
     color: #621313;
     margin-top: 20px;
