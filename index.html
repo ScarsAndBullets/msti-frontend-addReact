@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -1138,18 +1138,49 @@
                     <div class="section-title text-center">
                         <h2>Latest News</h2>
                         <span></span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed ation Lorem ipsum
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed ation Lorem ipsum
                             <br>dolor sit amet.Veniam quis notru exercit.
-                        </p>
+                        </p> -->
                     </div>
                 </div>
             </div>
             <div class="row">
                 <!-- START SINGLE BLOG POST -->
+                <!-- MODAL POPUP -->
+                <div class="modal" id="myModalBlog1">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="padding: 15px">
+                            <div class="modal-header">
+                                <h2 class="modal-title">
+                                    <img src="assets/img/blog/blog1Image.webp" alt="" class="img-responsive" style="margin-left: 20%;"/>
+                                    October 2022 NVSBC First Call Newsletter
+                                </h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>Here is NVSBC’s October 2022 edition of its First Call newsletter, informing you of the latest developments affecting 
+                                   veteran businesses in the federal marketplace. Included in this issue:</p>
+                                <li>Category Management: Observations from a Small Business After 30 Years in Government Contracting</li>
+                                </br>
+                                <li>Photo Gallery: First Annual NVSBC Veteran GovCon Awards Gala</li>
+                                </br>
+                                <li>Ten Biggest Protest Mistakes</li>
+                                </br>
+                                <li>Legal Brief: CVE Transfer to SBA Leaves Unanswered Questions</li>
+                                </br>
+                                <li>Finance: What is Incremental Cash Flow?</li>
+                                </br>
+                                <li>NVSBC Calendar of Events</li>
+                                </br>
+                                <a href="https://b7442478-08c7-4261-bd9e-a4b0f1812528.usrfiles.com/ugd/b74424_c84afad2066d4cef9ef70d908b39f439.pdf" target="_blank">View the newsletter here(PDF)</a>
+                            </div>
+                        </div><!-- end modal-content -->
+                    </div><!-- end modal-dialog-->
+                </div><!-- end modal -->
+                <!-- END MODAL -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-blog-post">
                         <div class="single-blog-thumb">
-                            <img src="assets/img/blog/1.jpg" alt="" class="img-responsive" />
+                            <img src="assets/img/blog/blog1Image.webp" alt="" class="img-responsive" />
                         </div>
                         <div class="single-post-content">
                             <ul class="post-meta">
@@ -1158,10 +1189,9 @@
                                 <li><a href="#"><i class="fa fa-comment"></i>30 comment</a>
                                 </li>
                             </ul>
-                            <h4><a href="#">blog post title here</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit.</p>
-                            <a class="blog-btn" href="#">read more</a>
+                            <h4><a href="#">October 2022 NVSBC First Call Newsletter</a></h4>
+                            <p>Here is NVSBC’s October 2022 edition of its First Call newsletter, informing you of the latest</p>
+                            <a class="blog-btn" data-toggle="modal" data-target="#myModalBlog1">read more</a>
                         </div>
                     </div>
                 </div>
@@ -1182,7 +1212,7 @@
                             <h4><a href="#">blog post title here</a></h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit.</p>
-                            <a class="blog-btn" href="#">read more</a>
+                            <a data-toggle="modal" data-target="myModalBlog2" class="blog-btn">read more</a>
                         </div>
                     </div>
                 </div>
