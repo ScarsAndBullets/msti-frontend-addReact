@@ -155,6 +155,7 @@ Version      : 1.0
         // Hide irrelevant sections
         // $('.project-complete-area').hide();
         $('.our-pricing-area').hide();
+        $('.our-work-area').hide();
 
     });
 
