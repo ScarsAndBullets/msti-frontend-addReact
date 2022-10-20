@@ -396,6 +396,42 @@ a.welcome-control:focus {
     transition: .25s !important;
     -webkit-transition: .25s !important;
 }
+
+.latest-left:hover,
+.latest-right:hover {
+    text-shadow: 1px 1px 1px #999;
+    color: #5B1724 !important;
+    transition: .25s !important;
+    -webkit-transition: .25s !important;
+}
+
+.latest-left,
+.latest-right {
+        background: transparent none repeat scroll 0 0 !important;
+        border-radius: 50% !important;
+        font-size: 42px !important;
+        text-align: center;
+        /* line-height: 50px; */
+        line-height: 32px;
+        color:black;
+        /* font-size: 24px; */
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 50%;
+        /* left: 0; */
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 20;
+}
+
+.latest-left{
+    left: -200px;
+}
+
+.latest-right{
+    right: -200px;
+}
 .owl-dots {
     display: none;
 }

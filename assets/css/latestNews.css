@@ -1,0 +1,49 @@
+.height-fix{
+    max-height: 244.05px;
+}
+
+.blog-btn{
+    cursor: pointer;
+}
+
+.size-correction{
+    font-size: 40px;
+}
+
+.name-and-updated-line{
+    font-weight: 1; 
+    font-size: 12px; 
+    padding-bottom: 10px;
+}
+
+.title-line{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.border-line{
+    border-top: 1px solid #e5e5e5;
+    padding: 15px;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-description-line{
+    font-weight: 1;
+    font-size: 12px;
+    text-align: center;
+}
+
+.modal-resizing{
+    padding: 15px;
+    width: 1000px;
+}
+
+.modal.in.modalCenter{
+    display: block;
+    left: -270px;
+}

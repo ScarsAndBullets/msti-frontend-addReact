@@ -54,6 +54,8 @@
     display: none; }
   .owl-carousel .owl-nav .owl-prev,
   .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-nav .latest-left,
+  .owl-carousel .owl-nav .latest-right,
   .owl-carousel .owl-dot {
     cursor: pointer;
     -webkit-user-select: none;
@@ -63,12 +65,35 @@
     user-select: none; }
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel .owl-nav button.latest-left,
+  .owl-carousel .owl-nav button.latest-right,
   .owl-carousel button.owl-dot {
     background: none;
     color: inherit;
     border: none;
     padding: 0 !important;
     font: inherit; }
+
+    /* CUSTOM NAV CONTROLS */
+    .owl-carousel .latest-news-nav.disabled {
+      display: none; }
+    .owl-carousel .latest-news-nav .latest-left,
+    .owl-carousel .latest-news-nav .latest-right {
+      cursor: pointer;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .owl-carousel .latest-news-nav button.latest-left,
+    .owl-carousel .latest-news-nav button.latest-right {
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0 !important;
+      font: inherit; }
+    /* END CUSTOM NAV CONTROLS */
+
   .owl-carousel.owl-loaded {
     display: block; }
   .owl-carousel.owl-loading {
