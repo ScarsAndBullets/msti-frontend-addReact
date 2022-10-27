@@ -401,6 +401,10 @@ a.welcome-control:focus {
     -webkit-transition: .25s !important;
 }
 
+.owl-nav {
+    display: none;
+}
+
 .latest-left:hover,
 .latest-right:hover {
     text-shadow: 1px 1px 1px #999;
@@ -574,6 +578,27 @@ a.about-btn:hover {
     cursor: pointer;
     height: 810px;
 }
+#capabilities .modal {
+    cursor: auto;
+    color: var(--darkGray);
+}
+#capabilities .modal p,
+#capabilities .modal li {
+    text-align: left;
+}
+#capabilities .modal li {
+    list-style-type: disc;
+}
+#capabilities .modal .clickLogo {
+    margin: 20px;
+}
+#capabilities .modal .flex.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+.space-between {
+    justify-content: space-between;
+}
 .service-content h4 {
     color: #666;
     letter-spacing: 2px;
@@ -621,6 +646,15 @@ a.about-btn:hover {
     color: #fff;
     -webkit-transition: .4s;
     transition: .4s;
+}
+.flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.centered {
+    text-align: center;
 }
 /*05.END SERVICE DESIGN AREA*/
 /*06. START GET-STRETED AREA*/
@@ -921,6 +955,9 @@ ul.work li:hover {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+}
+.testimonial-list .single-testimonial h5 {
+    display: none;
 }
 .owl-carousel .owl-page {
     display: inline-block;
