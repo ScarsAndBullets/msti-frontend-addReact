@@ -27,6 +27,7 @@
     --gray: #C9D0D7; /* rgb(201,208,215) - element border */
     --darkGray: #5F5F5F; /* rgb(95,95,95) - testimonial background */
     --darkMaroon2: #630103; /* rgb(99,1,3) - top for career table */
+    --teal: #215E55 /* Color directly opposit maroon on the color wheel */
 }
 
 body {
@@ -48,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #333;
+    color: var(--darkGray);
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -150,7 +151,8 @@ fieldset {
     font-weight: 600;
 }
 .section-title span {
-    background: var(--maroon) none repeat scroll 0 0;
+    /* background: var(--maroon) none repeat scroll 0 0; */
+    background: var(--teal) none repeat scroll 0 0;
     display: block;
     height: 2px;
     margin: 15px auto;
@@ -554,7 +556,8 @@ a.about-btn:hover {
 }
 
 .service-icon {
-    background: #687074;;
+    /* background: #687074; */
+    background: var(--maroon);
     height: 62px;
     width: 62px;
     margin: 0 auto;
@@ -578,9 +581,22 @@ a.about-btn:hover {
     cursor: pointer;
     height: 810px;
 }
+#capabilities .service-content a {
+    color: rgb(102,102,102);
+    text-decoration: underline;
+}
+#capabilities .service-content:hover a {
+    color: #fff;
+}
+#capabilities .service-content a:hover {
+    text-decoration: none;
+}
 #capabilities .modal {
     cursor: auto;
     color: var(--darkGray);
+}
+.modal-body {
+    padding: 30px;
 }
 #capabilities .modal p,
 #capabilities .modal li {
@@ -588,6 +604,7 @@ a.about-btn:hover {
 }
 #capabilities .modal li {
     list-style-type: disc;
+    margin-left: 17px;
 }
 #capabilities .modal .clickLogo {
     margin: 20px;
@@ -600,7 +617,8 @@ a.about-btn:hover {
     justify-content: space-between;
 }
 .service-content h4 {
-    color: #666;
+    /* color: #666; */
+    color: var(--maroon);
     letter-spacing: 2px;
     position: relative;
     transition: all 0.4s ease 0s;
@@ -888,7 +906,8 @@ ul.work li:hover {
     background-attachment: fixed;
 }
 .what-clients-say-area.section-padding {
-    padding: 40px 0 1px;
+    /* padding: 40px 0 1px; */
+    padding-bottom: 20px;
 }
 .what-clients-say-area .section-title {
     margin-bottom: 40px;
@@ -943,6 +962,7 @@ ul.work li:hover {
     color: var(--gray);
     font-style: italic;
     font-weight: 700;
+    font-size: 16px;
 }
 /* .single-testimonial h6 {
     color: #1da;
