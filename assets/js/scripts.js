@@ -76,31 +76,31 @@ Version      : 1.0
 		/*END TESTMONIAL JS*/
 
 		/*START LATEST NEWS JS*/
-		$(".latestNewsList").owlCarousel({
-			items: 3,
-			autoplay: false,
-			autoplayHoverPause: false,
-			autoplayTimeout: 10000,
-			mouseDrag: false,
-			touchDrag: false,
-			pullDrag: false,
-			freeDrag: false,
-			nav: true,
-			navigation: true,
-			navContainerClass: "latest-news-nav",
-			navClass: ["latest-left", "latest-right"],
-			theme: "tp-round-button",
-			slideSpeed: 300,
-			paginationSpeed: 400,
-			itemsDesktop: false,
-			itemsDesktopSmall: false,
-			itemsTablet: false,
-			itemsMobile: false,
-			autoHeight: true,
-			rewind: false,
-			autoWidth: false,
-			margin: 20,
-		});
+		// $(".latestNewsList").owlCarousel({
+		// 	items: 3,
+		// 	autoplay: false,
+		// 	autoplayHoverPause: false,
+		// 	autoplayTimeout: 10000,
+		// 	mouseDrag: false,
+		// 	touchDrag: false,
+		// 	pullDrag: false,
+		// 	freeDrag: false,
+		// 	nav: true,
+		// 	navigation: true,
+		// 	navContainerClass: "latest-news-nav",
+		// 	navClass: ["latest-left", "latest-right"],
+		// 	theme: "tp-round-button",
+		// 	slideSpeed: 300,
+		// 	paginationSpeed: 400,
+		// 	itemsDesktop: false,
+		// 	itemsDesktopSmall: false,
+		// 	itemsTablet: false,
+		// 	itemsMobile: false,
+		// 	autoHeight: true,
+		// 	rewind: false,
+		// 	autoWidth: false,
+		// 	margin: 20,
+		// });
 		/*END LATEST NEWS JS*/
 
 		/*COUNTER UP JS*/

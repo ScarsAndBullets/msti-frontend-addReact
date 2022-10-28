@@ -1119,8 +1119,39 @@ ul.post-meta li {
     color: #621313;
     margin-right: 5px;
 }
+/* .blog-1 {
+    background: url(../img/blog/blog1Image.webp);
+} */
+/* .blog-2 {
+    background: url(../img/blog/blog2Image.webp);
+} */
+/* .blog-3 {
+    background: url(../img/blog/blog3Image.webp);
+} */
+/* .blog-4 {
+    background: url(../img/blog/blog4Image.webp);
+} */
+/* .blog-5 {
+    background: url(../img/blog/blog5Image.webp);
+} */
+/* .single-blog-thumb {
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+} */
+/* Hides all blog-posts */
+.blog-post {
+    display: none;
+}
+/* Displays only the first 3 blog-posts */
+.blog-post:nth-child(-n+3) {
+    display:block;
+}
 .single-blog-post {
-    margin-top: 30px
+    margin-top: 30px;
+    flex-basis: 360px;
+    flex-shrink: 0;
 }
 .single-post-content {
     background: #fff;
