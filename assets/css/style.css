@@ -285,6 +285,11 @@ a.slide-btn {
     transition: .5s;
     border-radius: 4px;
 }
+@media only screen and (max-width: 767px) {
+    a.slide-btn {
+        width: 140px !important;
+    }
+}
 a.slide-btn:hover {
     background: #621313;
     color: #fff;
@@ -728,7 +733,7 @@ a.get-start-btn:hover {
     margin-top: 30px;
     text-align: center;
     padding: 30px 20px;
-    height: 423px;
+    /* height: 423px; */
 }
 .single-team:hover {
     box-shadow: 0 0 10px 1px rgba(76, 76, 76, 0.41);
@@ -738,6 +743,9 @@ a.get-start-btn:hover {
 .single-team h6 {
     color: #666;
     margin: 15px 0;
+}
+.img-responsive {
+    width: 100%;
 }
 ul.team-social {
     list-style: outside none none;
