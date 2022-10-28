@@ -21,6 +21,6 @@ class CustomerFeedback extends React.Component {
   }
 }
 
-const domContainer = document.querySelector('.customer-feedback-container');
+const domContainer = document.querySelector('.testimonial-list');
 const root = ReactDOM.createRoot(domContainer);
 // root.render(e(CustomerFeedback));
