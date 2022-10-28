@@ -309,23 +309,22 @@ a.slide-btn:hover {
 }
 .slide-0 {
     background:url(../img/bg/focused2-1920.jpg);
-    background-size: cover;
 }
 .slide-1 {
     background:url(../img/bg/soldier-g635cf6dce_1920.jpg);
-    background-size: cover;
 }
 .slide-2 {
     background:url(../img/bg/shaking-hands-g7217327f7_1920.jpg);
-    background-size: cover;
 }
 .slide-3 {
     background:url(../img/bg/helicopter-g8a0ab5f58_1920.jpg);
-    background-size: cover;
 }
+
 .single-slide-item {
     position: relative;
     z-index: 1;
+    background-size: cover;
+    background-position: top center;
 }
 .single-slide-item:after {
     background: rgba(0, 0, 0, 0.50);
