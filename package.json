@@ -1,0 +1,23 @@
+{
+  "name": "msti-frontend-addreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScarsAndBullets/msti-frontend-addReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScarsAndBullets/msti-frontend-addReact/issues"
+  },
+  "homepage": "https://github.com/ScarsAndBullets/msti-frontend-addReact#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
